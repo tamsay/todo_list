@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw==" crossorigin="anonymous" />
     <link rel="stylesheet" href="styles.css">
 
     <title>TODO LIST APP</title>
@@ -21,7 +23,7 @@
             <button type="button" class="btn btn-primary" id="createTodoBtn" data-toggle="modal" data-target="#newTodoModal">
                 Create Todo
             </button>
-            <button class="btn clearDatabase btn-danger">Clear Database</button>
+            <button id="clearDatabase" class="btn btn-danger">Clear Database</button>
         </div>
 
     </header>
@@ -39,14 +41,12 @@
                     <div class="modal-body">
                             <h3>New Item</h3>
                             <textarea name="textarea" id="todoInput" cols="50" rows="3"></textarea>
-                        <div class="row">
-                            <input type="date" name="date" id="datePicker">
-                        </div>
+                        
                         <p class="createTodoError"></p>
                     </div>
                     <div class="modal-footer">
                     <button type="button" class="btn btn-primary" id="saveTodo">Save changes</button>
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal" id="closeTodoModal">Close</button>
+                    <button type="button" class="btn btn-danger" data-dismiss="modal" id="closeTodoModal">Close</button>
                     </div>
                 </div>
                 </div>
