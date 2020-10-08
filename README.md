@@ -4,7 +4,7 @@ A simple todo-list webapp - DevTask 2
 [![Netlify Status](https://api.netlify.com/api/v1/badges/5ffd5c18-a678-4c34-888f-c9c209632c0b/deploy-status)](https://app.netlify.com/sites/tamsay-todo-app/deploys)
 
 
-This is the second project in the DevTask project series. The app is a simple todo app with editing and local storage capabilities. It is fully responsive on all screen sizes and built without any framework. 
+This is the second project in the DevTask project series (and my first official todo app). It is a simple todo app with todo editing/modifying, deleting and local storage capabilities. There is also a counter displaying the status of all the todo items in the app (completed, pending and total todo items). It is fully responsive on all screen sizes and built without any framework. 
 
 
 ## Screenshots
